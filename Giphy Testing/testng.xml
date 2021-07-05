@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Giphy_UI_Test.Upload"/>
+      <class name="API_Testing.SearchAPITest"/>
+      <class name="Giphy_UI_Test.Search_NonExisting_Gif"/>
+      <class name="Giphy_UI_Test.Login_Test"/>
+      <class name="Giphy_UI_Test.Negative_Login_Test"/>
+      <class name="Giphy_UI_Test.Search_Existing_Gif"/>
+      <class name="GiphyObject.DriverObject"/>
+      <class name="Giphy_UI_Test.Pages_Check_Test"/>
+      <class name="Giphy_UI_Test.Gif_Creation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
